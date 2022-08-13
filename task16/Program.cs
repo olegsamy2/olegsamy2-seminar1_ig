@@ -8,7 +8,7 @@ Console.WriteLine("Введите первое число: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
-if (Math.Pow(numberA, 2) == numberB | Math.Pow(numberB, 2) == numberA)
+if (Math.Pow(numberA, 2) == numberB || Math.Pow(numberB, 2) == numberA)
 {
   Console.WriteLine("да - одно число является квадратом другого");
 }
